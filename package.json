@@ -1,0 +1,15 @@
+{
+  "name": "bolt-js-lambda",
+  "version": "1.0.0",
+  "description": "Deploying to AWS Lambda ⚡️ Bolt for JavaScript using the AwsLambdaReceiver",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@slack/bolt": "^3",
+    "@aws-sdk/client-bedrock-agent-runtime": "^3.682.0"
+  }
+}
